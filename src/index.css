@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Fondo oscuro */
+  color: white; /* Color de texto claro */
+}
+
+a {
+  color: #ff4081; /* Color para enlaces */
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos toda la altura de la ventana */
+}
+
+main {
+  flex: 1; /* Asegura que el main ocupe el espacio restante */
+}

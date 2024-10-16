@@ -1,0 +1,63 @@
+/* src/components/Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el título y el menú */
+    align-items: center; /* Alineación vertical en el centro */
+    background-color: #58095f; /* Color morado para el navbar */
+    padding: 20px 30px; /* Aumentar el espaciado interno */
+    min-height: 80px; /* Altura mínima para el navbar */
+}
+
+.navbar-title {
+    color: #ffffff; /* Título en blanco */
+    margin: 0; /* Sin margen */
+    font-size: 2.2em; /* Aumentado tamaño de fuente del título */
+    font-family: 'Roboto', sans-serif; /* Usar la fuente Roboto */
+    display: flex; /* Usar flexbox para alinear logo y texto */
+    align-items: center; /* Alineación vertical del logo y texto */
+}
+
+.navbar-logo-container {
+    width: 80px; /* Aumentar el ancho del contenedor */
+    height: 80px; /* Aumentar la altura del contenedor */
+    border-radius: 50%; /* Bordes redondeados para hacer el contenedor circular */
+    overflow: hidden; /* Ocultar cualquier parte de la imagen que sobresalga */
+    display: flex; /* Usar flexbox para centrar la imagen */
+    align-items: center; /* Alinear la imagen verticalmente */
+    justify-content: center; /* Alinear la imagen horizontalmente */
+    margin-right: 10px; /* Espacio entre el contenedor y el texto */
+    border: 2px solid #ffffff; /* Borde blanco (opcional) */
+}
+
+.navbar-logo {
+    width: 100%; /* Ajustar la imagen al tamaño del contenedor */
+    height: auto; /* Mantener la relación de aspecto de la imagen */
+    object-fit: cover; /* Asegurar que la imagen cubra el contenedor sin deformarse */
+}
+
+.navbar-menu {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+    display: flex; /* Mostrar elementos en línea */
+    gap: 30px; /* Espaciado entre los enlaces */
+}
+
+.navbar-menu li {
+    margin: 0; /* Sin margen */
+}
+
+.navbar-menu a {
+    color: #ffffff; /* Enlaces en blanco */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado alrededor de los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1.4em; /* Aumentado tamaño de fuente de los enlaces */
+    font-family: 'Roboto', sans-serif; /* Usar la fuente Roboto */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.navbar-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo al pasar el mouse */
+}

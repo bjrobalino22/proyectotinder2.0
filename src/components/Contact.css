@@ -1,0 +1,36 @@
+/* Contact.css */
+#contact {
+    padding: 40px;
+    background-color: #000000; /* Color de fondo oscuro */
+    color: white;
+    text-align: center; /* Centrar el título */
+}
+
+#contact h2 {
+    font-size: 3em; /* Aumentado el tamaño del título principal */
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.5em; /* Aumentado el tamaño del texto */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify; /* Justificar el texto */
+}
+
+#contact .social-links {
+    display: flex;
+    justify-content: center; /* Centrar los iconos */
+    margin-top: 15px;
+}
+
+#contact a {
+    color: #ff5864; /* Color de los enlaces */
+    text-decoration: none;
+    font-size: 1.5em; /* Aumentar el tamaño de los iconos */
+    margin: 0 15px; /* Espaciado entre iconos */
+}
+
+#contact a:hover {
+    color: #fff; /* Cambiar color al pasar el mouse */
+}

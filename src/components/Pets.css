@@ -1,0 +1,40 @@
+/* Pets.css */
+
+#pets {
+    padding: 40px;
+    background-color: #330033; /* Color de fondo oscuro */
+    color: white;
+    text-align: center;
+}
+
+#pets h2 {
+    font-size: 3em; /* Aumentado el tamaño del título */
+    color: #ff5733; /* Color rojo medio naranjado para el título */
+    margin-bottom: 20px;
+}
+
+.pet-profile {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pet-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.pet-profile h3 {
+    font-size: 2em; /* Aumentado el tamaño del nombre de la mascota */
+    color: #ff5733; /* Color rojo medio naranjado para el título */
+    margin-bottom: 10px;
+}
+
+.pet-profile p {
+    font-size: 1.5em; /* Tamaño de texto ajustado para mayor legibilidad */
+    margin-bottom: 5px;
+}

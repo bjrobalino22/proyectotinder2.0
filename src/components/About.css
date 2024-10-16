@@ -1,0 +1,21 @@
+/* About.css */
+
+#about {
+    padding: 40px;
+    background-color: #330033; /* Color de fondo oscuro */
+    color: white;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 3.5em; /* Aumentado el tamaño del título */
+    color: #ff5733; /* Color rojo medio naranjado para el título */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 2.0em; /* Aumentado el tamaño del texto */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
